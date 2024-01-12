@@ -7,7 +7,7 @@ description: >-
 
 # Scans
 
-<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/img24.png" alt=""><figcaption></figcaption></figure>
 
 1. **Search Bar**:
    * Use this feature to quickly search for specific scans using keywords or scan IDs.

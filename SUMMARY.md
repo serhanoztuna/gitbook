@@ -2,10 +2,6 @@
 
 * [Introducing CodeThreat](README.md)
 
-## Requirements
-
-* [Page 2](requirements/page-2.md)
-
 ## Getting started
 
 * [Create a CodeThreat Account](getting-started/create-a-codethreat-account.md)

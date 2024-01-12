@@ -1,6 +1,6 @@
 # Projects
 
-<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/img20.png" alt=""><figcaption></figcaption></figure>
 
 1. **Search Bar**:
    * Located at the top of the page.

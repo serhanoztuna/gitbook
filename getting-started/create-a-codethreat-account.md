@@ -7,7 +7,7 @@ description: >-
 
 # Create a CodeThreat Account
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption><p>Login Page</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/img16.png" alt=""><figcaption><p>Login Page</p></figcaption></figure>
 
 **Options:**
 

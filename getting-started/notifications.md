@@ -2,7 +2,7 @@
 
 The Notification Page provides users with real-time updates related to scan operations and report generation processes. It acts as a centralized hub to keep users informed about the progress and results of their scanning activities.
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/img15.png" alt=""><figcaption></figcaption></figure>
 
 **Scan Notifications:**
 

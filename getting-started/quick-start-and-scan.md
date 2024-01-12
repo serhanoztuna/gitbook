@@ -4,7 +4,7 @@
 
 Start from the main page of our platform.
 
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/img17.png" alt=""><figcaption></figcaption></figure>
 
 #### **2. Click on the "+" Button:**
 
@@ -14,7 +14,7 @@ Located on the main page, you'll find a "+" button. Clicking on this button will
 
 From the dropdown menu or list of options, select the "Create New Project" option. This will lead you to a new page dedicated to project creation.
 
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption><p>Select Integration</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/img18.png" alt=""><figcaption><p>Select Integration</p></figcaption></figure>
 
 #### **4. Integration Service:**
 
@@ -29,9 +29,7 @@ If you choose an on-premises integration (often labeled as "Onprem"), you will h
 
 * **Upload**: This feature allows users to directly upload ZIP files, making it easier to integrate local projects or datasets into the platform.
 
-
-
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption><p>Select Policy</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/img19.png" alt=""><figcaption><p>Select Policy</p></figcaption></figure>
 
 #### 5. Proceed Through the Steps:
 
