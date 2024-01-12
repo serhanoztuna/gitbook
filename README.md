@@ -1,8 +1,5 @@
 ---
-description: >-
-  AI-driven development is set to accelerate the pace of innovation, doubling
-  efficiency. In response, our SAST solutions are evolving to deliver even
-  faster performance
+description: 🚀 CodeThreat SCA Released 🚀
 cover: .gitbook/assets/1675159985994.jpg
 coverY: 0
 layout:
@@ -21,52 +18,84 @@ layout:
     visible: true
 ---
 
-# v2311.30 - Latest
+# v2401 SCA Release
 
 {% hint style="success" %}
-We're excited to roll out our latest feature - Bitbucket Cloud and Server integrations. Bringing you closer to a seamless development cycle, we've tuned up our CI/CD processes to sync perfectly with your Bitbucket workflow. Expect a sharper dashboard, smarter insights, and an analysis that moves at the pace of your innovation. It's about making your development journey smoother and your security checks sharper. Get ready to code, commit, and deploy with confidence!
+As we launch the first update of 2024 with v2401, \
+\
+We want to share a core belief that shapes our approach to SAST solutions: We don’t just see SAST as a tool for security teams or just for developers; we see it as a crucial element for understanding and communicating the entirety of your project across different departments and auditors. \
+\
+Our goal is to provide a comprehensive software bill of materials (SBOM) report that is clear and accessible to everyone involved. This update is a significant step towards that goal, offering enhanced capabilities that bring more transparency and clarity to your project's components. We're committed to making sure that our solutions not only strengthen your security posture but also enhance overall project comprehension for all stakeholders
 {% endhint %}
 
-## 🌟 **Latest Update: v2311.30**
+## 🌟 **Latest Update:** v2401
 
-## 🚀 **New Features - API**
+### 🔍  **SCA - Software Composition Analysis**
 
-### 🔍  **Bitbucket Cloud & Server Integration**
+CodeThreat SCA designed to give teams an in-depth understanding of their project's dependencies. Our new information panel provides a transparent overview of open-source components, their licenses, and associated vulnerabilities, directly within your workflow\
 
-In this update, we've focused on enhancing integration capabilities with a key addition: Bitbucket Cloud and Server support.
-
-* **Bitbucket Integration**: Users can now connect their Bitbucket accounts with CodeThreat for streamlined access and functionality. This integration facilitates direct scanning of Bitbucket repositories within the CodeThreat platform.
-* **Simplified Access**: The new integration allows for quick and easy login using Bitbucket credentials, streamlining the process for users who manage their repositories on Bitbucket.
-* **Direct Repository Scanning**: With this update, scanning Bitbucket repositories for security and quality checks is more straightforward, providing a more efficient workflow for developers and teams.
-
-<figure><img src=".gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
-
-### 🔍  Scan List Enhancements
-
-* **Commit Message Clarity**: We've improved the scan list to include commit messages. This allows users to easily match scan results with the corresponding code changes.
-* **Scan Duration Display**: The scan list now shows the duration of each scan, giving immediate insight into the performance and efficiency of the security checks.
 
 <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-**Policy Settings Rework**: A comprehensive rework of policy settings offers clearer guidance and governance for code quality checks.
+* **Identify Issues Quickly:** Understand the specific vulnerabilities of third-party components in your code.
+* **Actionable Solutions:** Receive clear guidance on resolving identified issues and keeping your dependencies secure.
+* **SAST Issue Correlation:** See how SAST findings are related to third-party components, providing a holistic view of your project's security.
 
-##
+**Intelligent Fix Recommendations:** Our tool goes beyond the surface, providing the most effective version upgrades for a fix — not just the latest, but the best fit for your project.
 
-## 🚀 Analyzer Updates
+### 🔍  License Tracking&#x20;
 
-* **AI-Driven App Library Support**: Our analyzer now boasts support for innovative libraries such as "semantic kernel" and langchainjs. Dive into our updated rule list for a comprehensive view of the new additions, all aimed at elevating the intelligence behind our code analysis.
-* **Enhanced C# Invocation Analysis**: The invocation expression argument check for C# has been made more library-aware, providing a deeper understanding of your code's context. With this improvement, we're setting the stage for the introduction of implicit sanitization checks, fine-tuning security at the syntax level.
-* **Data Flow Graph Visualization**: We're taking transparency to the next level by integrating a Data Flow Graph of current findings into the project overview. This visual map will give you an intuitive grasp of how data moves through your code, making it easier to spot potential issues. By continually refining our data flow algorithms, we aim to provide a more granular and insightful analysis, aiding in the proactive identification and remediation of security vulnerabilities.
+We're introducing license tracking feature within our SCA toolkit. This feature is designed to help developers:
+
+* **Stay Compliant:** Monitor and manage the licenses of your third-party components to ensure your project adheres to legal and compliance standards.
+* **Gain Visibility:** Receive a clear breakdown of the licenses associated with each component in your project, so you can make informed decisions.
+
+{% hint style="warning" %}
+The license tracking feature is currently experimental. As we continue to refine our platform, you can expect more comprehensive updates to this feature in future releases.
+{% endhint %}
 
 <figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-##
+### 🔍  Dependency Graph
+
+* **Clear Visualization:** A comprehensive graphical representation of how each component in your project connects, making complex structures understandable at a glance.
+* **In-Depth Analysis:** Drill down into the details of each dependency to assess its role and the implications it has on your project's health and security.
+* **Efficient Troubleshooting:** Quickly identify and resolve issues within your project’s framework, streamlining your development process.
+
+{% hint style="warning" %}
+The dependency graph feature is currently experimental. We are actively working to refine its capabilities, aiming to enhance visualization and utility in the forthcoming updates
+{% endhint %}
+
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+## 🚀 Platform Updates
+
+Our latest v2401.01 update brings a significant improvement to the way teams collaborate on our platform. Here’s what’s new for organization and team management.
+
+**Invitation Link Generation and Direct Invite:** Team leads can now generate organization invitation links through our platform. &#x20;
+
+**New Default Policies for Enhanced Scanning Options**
+
+* **SCA-Only Scan Policy:** This policy focuses exclusively on SCA. It's ideal for teams primarily concerned with the security and compliance of open-source components in their projects. This policy scans for vulnerabilities in third-party libraries and checks for license compliance.
+* **SAST-Only Scan Policy:** Tailored for those who want to concentrate on SAST, this policy scans your codebase for potential security issues without the additional layer of SCA. It's perfect for in-depth analysis of proprietary code and identifying security weaknesses.
+* **Decompilation for Binary Artifacts:** Recognizing the importance of analyzing compiled files, we now offer a policy specifically for the decompilation of binary artifacts like DLLs and JARs. This allows for a thorough security analysis of compiled code, providing insights into potential vulnerabilities within these files.
+
+## 🚀 SAST Analyzer Updates
+
+**84 New C# and Java Rules:** We've significantly expanded our SAST rule set with **84** new rules for C# and Java.
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>No one likes conflicts...right? </p></figcaption></figure>
 
 ## 🐛 **Bug Fixes and Stability Updates**
 
-* **Scan Stability**: Fixed bugs that affected scan processes, increasing stability and reliability of scans.
-* **Source List Navigation**: Resolved a critical bug in source (dangerous inputs) rules iteration.
-* **Data Inconsistency**: Resolved a critical bug in repository scan results
-* **User Experience Polish**: Minor but impactful UI tweaks to polish the overall user experience, addressing component glitches and enhancing usability.
+* **Login Issues Resolved:** We've fixed the login complications that arose with various integration options. Now, users can smoothly join a single organization after accepting an invitation, ensuring a seamless integration process regardless of the platform used.
+
+
+
+**Looking Ahead**
+
+> _As we progress through 2024, we want to share an important update about our roadmap: we may be adjusting our update cycle slightly. This change is in response to our growing focus on enhancing the quality aspects of our product. Our team is expanding, with more expertise and resources dedicated to ensuring that each feature and update meets the highest standards of excellence_
+
+\
+
+
